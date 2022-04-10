@@ -1,0 +1,24 @@
+{
+  "name": "07ecommerceapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xelva/ecommerceApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xelva/ecommerceApp/issues"
+  },
+  "homepage": "https://github.com/xelva/ecommerceApp#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
