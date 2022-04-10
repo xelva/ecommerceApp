@@ -1,6 +1,9 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+
 
 const app = express(); //describes everything our web server can do
+app.use(bodyParser.urlencoded({ extended: true }));//use 'use' to have all route handlers use this middleware, will not be used in GET request
 
 app.get('/', (req, res)=>{
     //req = request, incoming 
@@ -18,25 +21,8 @@ app.get('/', (req, res)=>{
     `);
 });
 
-const bodyParser = (req, res, next) => {
-     if(req.method === 'POST') {
-     
-        req.on('data', data => {
-            const parsed = data.toString('utf8').split('&');//convert buffer to string and parse
-            const formData = {};
-            for (let pair of parsed) {
-                const [key, value] = pair.split('='); //destructure to assign first value of array to key, second to value
-                formData[key] = value;
-            }
-            req.body = formData; //assign form data to body property of req object
-            next();
-        });
-    } else {
-        next();
-    }
-        
-};
-app.post('/', bodyParser, (req, res) => { //add any middlewear functions before req,res param
+
+app.post('/', (req, res) => { //add any middlewear functions before req,res param
     console.log(req.body);
     res.send('Account created');
 });
