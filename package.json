@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
-   },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xelva/ecommerceApp.git"
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/xelva/ecommerceApp#readme",
   "dependencies": {
+    "cookie-session": "^2.0.0",
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
   }
