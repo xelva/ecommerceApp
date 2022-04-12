@@ -31,5 +31,15 @@
     "email": "test8@gmail.com",
     "password": "29bfe96e96f40def2ee04b4a246eec5cc1449a7078fa58d3bb6687bcf9dd8909df896278de5b9f24ff23d70fb44146d77bdf9d05e4eb41a58d475c40f4a6a498.b326ee2de8a63dde",
     "id": "3fa52480"
+  },
+  {
+    "email": "test@kelly.com",
+    "password": "4b70b0602da7229c8fd4444c3982ba36d4b6c61e4f8b6f6dc4945f8017a9aade05b67a8aaf104e7016b24204742c7e857cfb2b62c13f158c9e8980046ff645d3.edea963bb79d9299",
+    "id": "66b0eae4"
+  },
+  {
+    "email": "test99@gmail.com",
+    "password": "3b5734d5c9d0601300030f0cbaac2f40caf7b35250caa387375b0869e74aec20254ed97c01a33a60907c23fe28461ac49c5a2df8358d49e389beb62411ab7ed4.287a5f09e0f2616e",
+    "id": "441bb4c9"
   }
 ]

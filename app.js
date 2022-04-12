@@ -16,7 +16,6 @@ app.get('/signup', (req, res)=>{
     //if response looks like html, express will send it back for the browser to interprit it as such
     res.send(`
     <div>
-        Your id is: ${req.session.userId}
         <form method="POST">
             <input name="email" placeholder="email"/>
             <input name="password" placeholder="password"/>
