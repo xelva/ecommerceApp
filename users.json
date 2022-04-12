@@ -51,5 +51,55 @@
     "email": "fake222@gmail.com",
     "password": "0cd6aa6498b91b9682516698608b1b881aa29b30ae7ef7176655ce8bef60766ef1cdd974f6ce6fb9fcbe23f2e86dac1b4f4729ff2d5a76b8adf1a26981140b6a.757f49cf4f4c0133",
     "id": "3d905f22"
+  },
+  {
+    "email": "fake2@gmail.com",
+    "password": "0d50a9ceff00297f9c942ee82a2e120fde6440721336965acecb17c9361e1e2dbc2b0fcf61081575c41308508d151df3016d19b668f396f1350fb189cec5e808.777b13c6a23755df",
+    "id": "809a06a1"
+  },
+  {
+    "email": "fake2@gmail.com",
+    "password": "d130b80907fc1567ea2d7eb9302ed8faae6e6ed6442717c66456cc00d5686047df6851b4deeffc840e5d3e78a0bbd311b407dd8e1a407af0fa00b427c5efea11.a16dcb064a593c78",
+    "id": "d3d36674"
+  },
+  {
+    "email": "fake2@gmail.com",
+    "password": "d5a7b492fe98b1c315b5dc755f1fe1188bb8ef27324da91a62fe8112aa60ddd69a01fc9eea2a6c21efa58bf009f63fd65f6e0b83731beb11fe28240341c7060c.0380bb134c54cfae",
+    "id": "6bccc9f6"
+  },
+  {
+    "email": "testing@gmail.com",
+    "password": "a63e2b2734feee43eb8c549c80aa644533ec361b7d6afaf9c4846dbcde177906431ae52f4e1c18bf317b6131de09f81c17ee5c49aff535fd93e5f8f4067de567.89c9eaf8df600549",
+    "id": "244f3b6f"
+  },
+  {
+    "email": "testing@gmail.com",
+    "password": "35b0be5550c368019f9ea296f543a0ba1334790ae1ecdc8f770eca8811ac78034726fd63b741449f88a0cb2075ef3b2dfb67cefa0ea78e19a556dcba228eeb0b.e5e272054fdc6a8a",
+    "id": "da7b8af0"
+  },
+  {
+    "email": "fake222@gmail.com",
+    "password": "eaa6223f79c5ec169605348f6fe3b835596264813384202579e1811ee10f9880022b161f645c67eb918210297a679c4396d277770b825f34b5944dc55e026cbd.b56bb08daf5685e2",
+    "id": "7339c52d"
+  },
+  {
+    "email": "fake2@gmail.com",
+    "password": "1b2997740095ecbc6900b1649b7afefd761f63a833ed179244e387286172b3dfda3b7f97a46bb98f7026f50bc7613c72964501abd643b6f0c500dfbcfde228a8.60b1f2aa8f1b4b27",
+    "id": "b5ccd1d3"
+  },
+  {
+    "email": "fake2@gmail.com",
+    "password": "19cca8e1a7f775b6752a64c8c155d782efa4430d13b10499417d3e493c636d353b573cd9025fb5669e8bd005c2602b69c21459aa60f88b43501485a7025381fd.c1cccbaaa311bb46",
+    "id": "5ea97286"
+  },
+  {
+    "email": "test@kelly.com",
+    "password": "58092a118e5ea6aad404fbc395572f9a17cdabeb3d8f9136d9225f3909fa0596818d6887d4b307d32cd99093984afc782202f0a099aec7ba9366039e59ac77de.a2426ec9b33f7d83",
+    "id": "0e780c4e"
+  },
+  {
+    "email": "test@kelly.com",
+    "password": "e2cf4f8038b0b3d3a029015ef98e63896c28d8e7b556a332fe6639a75974dc38bf2f1728334d89c6b1cd66c3a3b0372616c41ca2740f1ab0d7a937fa5e6d8ba4.ab3fce4ac163b390",
+    "id": "f35ee91a"
   }
 ]
