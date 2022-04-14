@@ -101,5 +101,50 @@
     "email": "test@kelly.com",
     "password": "e2cf4f8038b0b3d3a029015ef98e63896c28d8e7b556a332fe6639a75974dc38bf2f1728334d89c6b1cd66c3a3b0372616c41ca2740f1ab0d7a937fa5e6d8ba4.ab3fce4ac163b390",
     "id": "f35ee91a"
+  },
+  {
+    "email": "testing88@gmail.com",
+    "password": "e8975694a2875c46e34f687d22fb01fba4844306c5c7cea9b24fadc6a9dc91b0d0cbe5791419789f75bcf560aa20949ed47e47a17aceda8867e4b030d6a279e7.7b7fd02a08d9ea48",
+    "id": "679ac440"
+  },
+  {
+    "email": "testing99@gmail.com",
+    "password": "cdd0613b91a7cee2380a90d13d7492c41e2f0713f4444149e4e2e83607dc00bd8c3ce31410119026bc92fa8a20daa02048f2caa833e17d94230ce0eae317b9f0.d7c8f967e68faa25",
+    "id": "fdf534d5"
+  },
+  {
+    "email": "test888@gmail.com",
+    "password": "b2d4131f854e64aa0ce44435c2b2cd4e07f05b258f9c5530bf0c6933213fb53e1789b0efaf771ea786460d8f6b1917f4486c80caabdb947dd86c6b49e3751d94.5977ad235e00f6f9",
+    "id": "43a7f756"
+  },
+  {
+    "email": "tes333t@kelly.com",
+    "password": "0ce778f47cb6464557cede86f309325e8bc5063feb3200effbb1048a0135d82ea93b1546b0e829633648a4f28c160fa45e5b87b9d09905ad4ca584541dee23f5.ad08565cf4cc3cda",
+    "id": "dfe9e237"
+  },
+  {
+    "email": "asdfasdf@gmail.com",
+    "password": "b75c8667dc0fd016922b507babacef838cfa246cd6d390f6090b8e3a05e456c83df181e05f07e33d0577b206cfe96820706dcecd9ef5de4ec2c998bd3e0df63c.8771a3ceda11b30c",
+    "id": "595bfc81"
+  },
+  {
+    "email": "tes55t@kelly.com",
+    "password": "35a7c9362ee6a88ae1650f0170ddce1a1ffb901d26921771f451289da3f7ac9b989584682104e9a7fd4ed4d8381f94ffa3fc9860ff1dc33bc46392026299193a.e66a846de76de9e4",
+    "id": "750ff47a"
+  },
+  {
+    "email": "xelvacodes@gmail.com",
+    "password": "8e858602b7aeb2fe285033a609d8e9b47032888899d55a10be6ccb7e4eddd4745cfa79dc3270e27e3ed6cb65c7d14cf2426434e3c9f924a1aca70a2e38c8f45a.d73dd47a726cab6d",
+    "id": "9e39b614"
+  },
+  {
+    "email": "asdfasdfasdf@gmail.com",
+    "password": "320b98d67152126bf71e71d09dc8c3b80afdd93ed1a8a999278ef5a96c4469800ea1b6493642e04c406aa36f93d3c7b2b05754e5aab30c6994eb710aa65db619.099bd9d3d91530e2",
+    "id": "c677e5f2"
+  },
+  {
+    "email": "fakefake@gmail.com",
+    "password": "dff913b3c2d5fb3a3d539a531a04e5ccd528273112ef671702e4b2e5bd9dfb523b734e3448ea7f94da65a21404cb0d65836c505710b33bc68cd0df864eed5d1d.2a5b12feea6d285f",
+    "id": "02750f5c"
   }
 ]
