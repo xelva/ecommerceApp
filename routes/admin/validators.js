@@ -38,6 +38,15 @@ module.exports = {
         }
     }),
     checkPassword: check('password')
+    .trim(),
+    checkTitle: check('title')
     .trim()
+    .isLength({ min: 5, max: 40 })
+    .withMessage('Must be between 5 and 40 characters'),
+    checkPrice: check('price')
+    .trim()
+    .toFloat()
+    .isFloat({ min: 1})
+    .withMessage('Price must be a number'),
 };
 
