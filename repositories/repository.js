@@ -1,6 +1,6 @@
 const { accessSync, constants, writeFileSync } = require('fs');
 const { readFile, writeFile } = require('fs/promises');
-const crypto = require('crypto');
+const { randomBytes, scrypt } = require('crypto');
 
 module.exports = class Repository {
     constructor(filename) {
@@ -18,8 +18,9 @@ module.exports = class Repository {
     }
     async create(attrs) {
         attrs.id = this.randomId();
+        
         const records = await this.getAll();
-        records.push(attr);
+        records.push(attrs);
         await this.writeAll(records);
         return attrs;
     }

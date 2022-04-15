@@ -146,5 +146,35 @@
     "email": "fakefake@gmail.com",
     "password": "dff913b3c2d5fb3a3d539a531a04e5ccd528273112ef671702e4b2e5bd9dfb523b734e3448ea7f94da65a21404cb0d65836c505710b33bc68cd0df864eed5d1d.2a5b12feea6d285f",
     "id": "02750f5c"
+  },
+  {
+    "email": "test2233@kelly.com",
+    "password": "9186a69abcb76874947aca1e99dae9545dd5e6dde809bccca3910dcd8efbd4b1ede4139d954198c6f17e254257ee05a8eac66170c00b5082901c68d59ccb8bb2.09e2383e3c406017",
+    "id": "0408f797"
+  },
+  {
+    "email": "fake2666@gmail.com",
+    "password": "074edbfedb29541e974cc188f84dc4c762729b8ddeefc6a3afbc996b622a2a15017d1216ee14d928f13c74d7a2e04ccf2776db95f4dae83a0a927d3e265102eb.358056240e5677a7",
+    "id": "ebaff3cf"
+  },
+  {
+    "email": "fake2777@gmail.com",
+    "password": "d00da317eb5a3dc737b7760cbd16aa46680c449d167f02ea40d1a1f4faa2a0f35be1dd9240360404b0544239be28703428eee5d60ebbccf365f0d8ddd7ba7ecb.4d71b3eaaba3e852",
+    "id": "a1a63323"
+  },
+  {
+    "email": "testing@test.com",
+    "password": "23668706a6ff5adf85ccf3eb66edd7ee14edb8a3165b7879ce1fcf5aedfdee093fd2bfc31ee08544158a2219aa5989120a5da9dd4a49320e8307d395ed3d1092.e1e41bd25133fc86",
+    "id": "cd178e79"
+  },
+  {
+    "email": "xelvacodes3@gmail.com",
+    "password": "22024ddc3c7863a8f7a03d0721283a98f071f1c4d4ace5bf1f90297b46a0aa04e601edb75ede4678055ce44141319c0dfa96b32df40a8668366f35119e4dd410.e0c7d2715d49ff30",
+    "id": "b159cef1"
+  },
+  {
+    "email": "342234@gmail.com",
+    "password": "640992d75ca7b2bde5a9bdfc70672f21dc0d58d49b3c5f76d9ff28e8cf920dc22e78743ed177ca6c617e1d3854209f5fb6c95922b0db25cadfee53c7eb0717ea.d8d1a2718559f42e",
+    "id": "86795eb0"
   }
 ]
