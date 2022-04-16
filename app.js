@@ -2,7 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
 const authRouter = require('./routes/admin/auth.js');
-const productsRouter = require('./routes/admin/products.js');
+const adminProductsRouter = require('./routes/admin/products.js');
+const productsRouter = require('./routes/products.js');
+const cartsRouter = require('./routes/carts.js');
+const getProductsRouter = require('./routes/getProduct.js')
 
 const app = express(); //describes everything our web server can do
 
@@ -14,6 +17,9 @@ app.use(cookieSession({
 }));
 app.use(authRouter);
 app.use(productsRouter);
+app.use(adminProductsRouter);
+app.use(cartsRouter);
+app.use(getProductsRouter);
 
 app.listen(3000, () => {
     //setup your server to watch for incoming requests on the specified port (3000 in this case)
