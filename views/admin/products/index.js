@@ -1,4 +1,5 @@
 const layout = require('../layout.js');
+//const productsRepo = require('../../../repositories/repository.js')
 
 module.exports = ({ products }) => {
   const renderedProducts = products
@@ -15,7 +16,9 @@ module.exports = ({ products }) => {
           </a>
         </td>
         <td>
-          <button class="button is-danger">Delete</button>
+          <form method="POST" action="/admin/products/${product.id}/delete">
+            <button class="button is-danger">Delete</button>
+          </form>
         </td>
       </tr>
     `;
