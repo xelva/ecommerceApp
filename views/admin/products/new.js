@@ -6,7 +6,7 @@ module.exports = ({ errors }) => {
     content: `
       <div class="columns is-centered">
         <div class="column is-half">
-          <h1 class="subtitle">Create a Product</h1>
+          <h1 class="subtitle-up">Create a Product</h1>
 
           <form method="POST" enctype="multipart/form-data">
             <div class="field">
@@ -29,6 +29,7 @@ module.exports = ({ errors }) => {
             <button class="button is-primary">Create</button>
           </form>
         </div>
+        <div class="buffer"></div>
       </div>
     `
   });

@@ -24,6 +24,7 @@ module.exports = ({ errors }) => {
             <a href="/signup">Need an account? Sign Up</a>
           </div>
         </div>
+        <div class="buffer"></div>
       </div>
     `
   });

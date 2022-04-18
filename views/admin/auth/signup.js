@@ -8,7 +8,7 @@ module.exports = ({ req, errors }) => {
         <div class="columns is-centered">
           <div class="column is-one-third">
             <form method="POST">
-              <h1 class="title">Sign Up</h1>
+              <h1 class="subtitle-up">Sign Up</h1>
               <div class="field">
                 <label class="label">Email</label>
                 <input required class="input" placeholder="Email" name="email" />
@@ -32,6 +32,7 @@ module.exports = ({ req, errors }) => {
             <a href="/signin"><span class="signinLink">Have an account? Sign In</span></a>
           </div>
         </div>
+        <div class="buffer"></div>
       </div>
     `
   });

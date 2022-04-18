@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@300&display=swap');
+
 body {
   --primary: #631d76;
   --secondary: #9e4770;
   --white: #fbfbfb;
-  --dark: #2e2532;
+  --orange: #C84B31;
+  --dark: #191919;
   --black: #201a23;
+  --blue: #2D4263;
+  background-color: var(--dark);
 }
 
 .product-card figure {
@@ -19,7 +24,7 @@ body {
   text-decoration: none;
 }
 .navbar ul.social li a {
-  color: var(--white);
+  color: var(--dark);
 }
 
 .banner {
@@ -36,10 +41,12 @@ body {
 
 .navbar-bottom.navbar {
   align-items: center;
+  background-color: var(--dark);
+
 }
 
 .navbar-top.navbar {
-  background-color: var(--primary);
+  background-color: var(--dark);
 }
 
 .navbar-buttons {
@@ -147,4 +154,29 @@ body {
 
 .signinLink {
   
+}
+
+.title-logo {
+  font-family: 'Permanent Marker', cursive;
+  font-size: xx-large;
+  color: var(--orange);
+}
+
+.buffer {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.subtitle-up {
+  color: var(--white);
+  margin-bottom: 20px;
+  font-size: large;
+  
+}
+
+.title-large {
+  font-family: 'Permanent Marker', cursive;
+  font-size: xx-large;
+  color: var(--orange);
 }

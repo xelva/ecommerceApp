@@ -41,7 +41,6 @@ module.exports = class Repository {
     async getOne(id) {
         
         const records = await this.getAll();
-        console.log('doing this')
         return records.find(record => record.id === id); 
     }
 

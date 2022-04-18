@@ -3,11 +3,19 @@
     "items": [
       {
         "id": "417730d6",
-        "quantity": 3
+        "quantity": 9
       },
       {
         "id": "79ce1d8b",
         "quantity": 3
+      },
+      {
+        "id": "52def6e6",
+        "quantity": 2
+      },
+      {
+        "id": "d9bdb8e9",
+        "quantity": 1
       }
     ],
     "id": "399b2922"

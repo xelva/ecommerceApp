@@ -16,7 +16,7 @@ module.exports = ({ content }) => {
               <div class="container navbar-container">
                 <div>
                   <a href="/admin/products">
-                    <h3 class="title">Admin Panel</h3>
+                    <h3 class="title-large">Admin Panel</h3>
                   </a>
                 </div>
                 <div class="navbar-item">
