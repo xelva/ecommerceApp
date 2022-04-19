@@ -2,6 +2,7 @@ const express = require('express');
 const cartsRepo = require('../repositories/carts.js');
 const productsRepo = require('../repositories/products.js')
 const cartShowTemplate = require('../Views/carts/show.js')
+const cartShowEmpty = require('../Views/carts/showEmpty.js')
 
 const router = express.Router();
 
@@ -46,27 +47,39 @@ router.get('/cart', async (req, res) => {
         item.product = product;
     }
    
+
    res.send(cartShowTemplate( {items: cart.items}));
 });
 
-// reveive a post request to delete item form cart 
+// receive a post request to delete item form cart 
  router.post('/cart/:id/delete', async (req, res) => {
     const cart = await cartsRepo.getOne(req.session.cartId);
     const itemId = req.params.id;
     
+    items = cart.items.filter(item => item.id !== itemId);
+    
+    await cartsRepo.update(cart.id, {
+        items
+    })
+    res.redirect('/cart')
+ })
+
+ // receive a post request to update item quantity
+router.post('/cart/:id/update', async (req, res) => {
+    const cart = await cartsRepo.getOne(req.session.cartId);
+    const itemId = req.params.id;
     for (let item of cart.items) {
+        
         if (itemId === item.id) {
             if (item.quantity > 1) {
                 item.quantity--;
-            } else {
-                console.log('delete me')
             }
-        }
+        } 
     }
     await cartsRepo.update(cart.id, {
         items: cart.items
     })
     res.redirect('/cart')
- })
+})
 
 module.exports = router;

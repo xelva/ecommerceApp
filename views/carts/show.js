@@ -14,6 +14,15 @@ module.exports = ({ items }) => {
               <div class="price is-size-4">
                 $${item.product.price * item.quantity}
               </div>
+              <div class="update">
+                <form method="POST" action="/cart/${item.id}/update">
+                  <button class="button is-warning">                  
+                    <span class="icon is-small">
+                      <i class="fas fa-arrow-down"></i>
+                    </span>
+                  </button>
+                </form>
+              </div>
               <div class="remove">
                 <form method="POST" action="/cart/${item.id}/delete">
                   <button class="button is-danger">                  
